@@ -64,6 +64,57 @@ header nav {
   justify-content: space-between;
 }
 
+header nav .menu {
+  font-size: 25px;
+  color: #000;
+}
+
+header nav .right_menu {
+  display: flex;
+  align-items: center;
+}
+
+header nav .right_menu ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+header nav .right_menu ul li {
+  padding: 3px 10px;
+}
+
+header nav .right_menu ul li a {
+  position: relative;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 600;
+  color: #000;
+  transition: .3s linear;
+}
+
+header nav .right_menu ul li a::before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: #dc1313;
+  border-radius: 50%;
+  bottom: -5px;
+  left: 45%;
+  opacity: 0;
+  transition: .3s linear;
+}
+
+header nav .right_menu ul li a:hover {
+  color: #dc1313;
+}
+
+header nav .right_menu ul li a:hover:before {
+  opacity: 1;
+}
+
+
 header .left_menu {
   width: 20px;
   height: 90%;
