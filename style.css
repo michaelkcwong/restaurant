@@ -320,3 +320,28 @@ header section .cards .card .rate_cart h6 {
 header section .cards .card .rate_cart .bi {
   font-size: 12px;
  }
+
+ header section .social {
+  position: relative;
+  width: 100%;
+  border: 1px solid #000;
+  top: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: 1s linear;
+ }
+
+ header section .social .btns {
+  margin-left: 30px;
+ }
+
+ header section .social .btns .bi {
+  font-size: 13px;
+  cursor: pointer;
+  transition: .3s linear;
+ }
+
+ header section .social .btns .bi:hover {
+  color: rgb(0, 0, 0, .5);
+ }
