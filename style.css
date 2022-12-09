@@ -238,6 +238,13 @@ header section .cards {
   align-items: center;
   justify-content: space-between;
   overflow: auto;
+  scroll-behavior: smooth;
+  transition: 1s linear;
+}
+
+header section .cards::-webkit-scrollbar {
+  display: none;
+
 }
 
 header section .cards .card {
@@ -245,4 +252,18 @@ header section .cards .card {
   min-width: 125px;
   min-height: 125px;
   border: 1px solid #000;
+  margin-right: 13px;
+  background: #282828;
+  border-radius: 50px 10px 10px 10px;
+}
+
+header section .cards .card:nth-last-child(1) {
+  margin-right: 0;
+}
+
+header section .cards .card .dis {
+  width: 70px;
+  position: relative;
+  top: -5px;
+  left: -5px;
 }
