@@ -114,13 +114,13 @@ header nav .right_menu ul li a:hover:before {
   opacity: 1;
 }
 
-header nav .right menu .user_cart {
+header nav .right_menu .user_cart {
   margin-left: 50px;
   display: flex;
   align-items: center;
 }
 
-header nav .right menu .user_cart img {
+header nav .right_menu .user_cart .user {
   position: relative;
   width: 17px;
   height: 17px;
@@ -128,6 +128,22 @@ header nav .right menu .user_cart img {
   margin-left: 10px;
 }
 
+header nav .right_menu .user_cart .user img {
+  width: 100%;
+}
+
+
+header nav .right_menu .user_cart .user::before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: #dc1313;
+  border-radius: 50%;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+}
 
 header .left_menu {
   width: 20px;
