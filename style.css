@@ -29,6 +29,7 @@ header {
   padding: 0px 30px;
   display: flex;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 
 header .logo {
@@ -178,4 +179,56 @@ header section {
 
 header section .content {
   position: relative;
+  left: 370px;
+  margin-top: 10%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  transition: 1s linear;
+}
+
+header section .content h1 {
+  font-size: 40px;
+  transition: 1s linear;
+}
+
+header section .content p {
+  font-size: 10px;
+  font-weight: 600;
+  width: 290px;
+  word-break: break-all;
+}
+
+header section .content .price_order {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+header section .content .price_order .price h2 {
+  font-size: 20px;
+  color: #dc1313;
+  line-height: 18px;
+}
+
+header section .content .price_order .price p {
+  font-size: 5.5px;
+  width: 50px;
+  /* border: 1px solid #000 */
+}
+
+header section .content .price_order a{
+  padding: 4px 20px;
+  background: #121213;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  margin-left: 35px;
+}
+
+header section .cards {
+  width: 90%;
+  height: 140px;
+  border: 1px solid #000
 }
