@@ -230,5 +230,18 @@ header section .content .price_order a{
 header section .cards {
   width: 90%;
   height: 140px;
-  border: 1px solid #000
+  border: 1px solid #000;
+  position: relative;
+  top: 20%;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header section .cards .card {
+  position: relative;
+  width: 125px;
+  height: 125px;
+  border: 1px solid #000;
 }
