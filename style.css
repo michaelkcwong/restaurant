@@ -175,3 +175,7 @@ header section {
   height: 90%;
   /* border: 1px solid greenyellow; */
 }
+
+header section .content {
+  position: relative;
+}
