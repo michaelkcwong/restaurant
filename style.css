@@ -237,11 +237,12 @@ header section .cards {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  overflow: auto;
 }
 
 header section .cards .card {
   position: relative;
-  width: 125px;
-  height: 125px;
+  min-width: 125px;
+  min-height: 125px;
   border: 1px solid #000;
 }
