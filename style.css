@@ -324,7 +324,7 @@ header section .cards .card .rate_cart .bi {
  header section .social {
   position: relative;
   width: 100%;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   top: 20%;
   display: flex;
   align-items: center;
@@ -345,3 +345,20 @@ header section .cards .card .rate_cart .bi {
  header section .social .btns .bi:hover {
   color: rgb(0, 0, 0, .5);
  }
+
+ header section .social .icons {
+  display: flex;
+  align-items: center;
+ }
+
+ header section .social .icons a {
+  font-size: 12px;
+  margin-left: 10px;
+  color: #282828;
+  transition: .3s linear;
+ }
+
+ header section .social .icons a:hover {
+  color: #000;
+ }
+ 
