@@ -11,3 +11,12 @@ right.addEventListener('click', () => {
 })
 
 let poster = document.getElementById('poster');
+let title = document.getElementById('title');
+let price_cont = document.getElementById('price_cont');
+
+Array.from(document.getElementsByClassName('card')).forEach((ele, i)=> {
+  // console.log(ele)
+  ele.addEventListener('click', () => {
+    poster.src = ele.getElementsByTagName('img')[0].src
+  })
+})
