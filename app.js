@@ -18,5 +18,7 @@ Array.from(document.getElementsByClassName('card')).forEach((ele, i)=> {
   // console.log(ele)
   ele.addEventListener('click', () => {
     poster.src = ele.getElementsByTagName('img')[0].src
+    title.innerText = ele.getElementsByTagName('h5')[0].innerText
+    price_cont.innerText = ele.getElementsByTagName('h4')[0].innerText
   })
 })
