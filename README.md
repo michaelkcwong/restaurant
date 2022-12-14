@@ -2,4 +2,4 @@
 
 A restaurant website template made from html, css and javascript!
 
-![Screenshot](/restaurant/img/restaurant.png?raw=true "Restaurant")
+![Screenshot](https://github.com/michaelkcwong/restaurant/blob/master/img/restaurant.png)
